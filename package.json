@@ -1,0 +1,20 @@
+{
+  "name": "codeit-fs-typescript-basic-practice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.3.0",
+  "engines": {
+    "node": "26.7.0"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "check:starts": "node scripts/check.mjs --starts",
+    "check:answers": "node scripts/check.mjs --answers",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.8.1",
+    "typescript": "7.0.2"
+  }
+}
