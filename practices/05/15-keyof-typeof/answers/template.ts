@@ -8,7 +8,7 @@ export const book = {
 export type BookFromValue = typeof book;
 export type BookKey = keyof typeof book;
 
-export const bookKeys: BookKey[] = ["title", "price", "inStock"];
+export const bookKeys: BookKey[] = ["id", "title", "price", "inStock"];
 
 export function readBookValue(item: BookFromValue, key: BookKey) {
   return item[key];
