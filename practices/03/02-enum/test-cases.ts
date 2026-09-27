@@ -17,10 +17,15 @@ type cases = [
   Expect<Equal<typeof formatDirection, (direction: Direction) => string>>,
 ];
 
-const mediumValue: "M" = Size.M;
-const leftValue: "LEFT" = Direction.Left;
+const sizeValues: ["S", "M", "L", "XL"] = [Size.S, Size.M, Size.L, Size.XL];
+const directionValues: ["UP", "DOWN", "LEFT", "RIGHT"] = [
+  Direction.Up,
+  Direction.Down,
+  Direction.Left,
+  Direction.Right,
+];
 const sizeMessage: string = printSize(Size.L);
 const directionMessage: string = formatDirection(Direction.Up);
-void [mediumValue, leftValue, sizeMessage, directionMessage];
+void [sizeValues, directionValues, sizeMessage, directionMessage];
 
 export {};

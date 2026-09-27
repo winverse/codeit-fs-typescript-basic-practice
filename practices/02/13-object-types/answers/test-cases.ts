@@ -29,11 +29,8 @@ type cases = [
   Expect<Equal<typeof ebook, Book>>,
   Expect<Equal<typeof memberProfile, Profile>>,
   Expect<Equal<typeof guestProfile, Profile>>,
+  Expect<Equal<typeof stockByIsbn, { [isbn: string]: number }>>,
+  Expect<Equal<typeof levelByCourse, { [courseId: string]: number }>>,
 ];
-
-const typedStock: { [isbn: string]: number } = stockByIsbn;
-const typedLevelMap: { [courseId: string]: number } = levelByCourse;
-void typedStock;
-void typedLevelMap;
 
 export {};
