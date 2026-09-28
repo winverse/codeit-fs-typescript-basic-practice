@@ -2,7 +2,7 @@
 
 ## 목표
 
-string, number, boolean, undefined, null을 실제 값과 연결합니다.
+`string`, `number`, `boolean`, `undefined`, `null`을 실제 값과 연결합니다.
 
 ## 시작하기
 
