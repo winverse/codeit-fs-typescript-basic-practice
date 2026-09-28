@@ -10,7 +10,7 @@
 
 ## 수정할 파일과 시작 상태
 
-- `template.ts`: 기본 타입은 `unknown`, 조합 타입은 `any`여서 객체가 충족해야 할 조건이 사라진 상태입니다.
+- `template.ts`: 조합에 쓸 조각 타입(`Id`, `Timestamp`)은 `unknown`, 조합한 타입(`Product`, `User`)은 `any`여서 객체가 충족해야 할 조건이 사라진 상태입니다.
 - `test-cases.ts`: 공통 타입을 Intersection으로 조합했는지와 각 프로퍼티 타입을 검사하는 읽기 전용 파일입니다.
 
 ## 구현 내용
